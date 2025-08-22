@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Populer</title>
+    <link rel="stylesheet" href="../css/home.css">
+
+    <style>
+        header {
+            text-align: center;
+            background-color: #e6dacd;
+            animation-name: example;
+            animation-duration: 5s;
+        }
+
+        @keyframes example {
+            from {background-color: #e6dacd;}
+            to {background-color: #6e5608}
+        }
+        
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: black;
+            color: white;
+        }
+
+
+        p::first-letter {
+            color: #4e3c00;
+            font-size: xx-large;
+        }
+
+
+
+
+        
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .imagee{
+            transition: width 3s, height 3s, transform 3s;
+        }
+
+        .imagee:hover{
+            height: 200px;
+            width: auto;
+            transform: rotate(360deg);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../gambar/logo.png" alt="Furnid" height="100" class="center imagee">
+    
+        <p style="text-transform: uppercase;"><b>Furnid: Furniture Terbaik Pilihan Semua</b></p>
+    </header>
+
+    
+
+    <nav class="menu">
+        <ul id="nav">
+            <li><a href="home.html">Beranda</a></li>
+            <li><a href="#">Produk</a>
+                <ul>
+                    <li><a href="populer.html">Produk Terpopuler</a></li>
+                    <li><a href="baru.html">Produk Terbaru</a></li>
+                </ul>
+            </li>
+            <li><a href="form.html">Formulir</a></li>
+        </ul>
+    </nav>
+
+    <br><h1 style="text-align:center; text-transform: uppercase;"><u>Produk terpopuler kami</u></h1><br>
+
+    
+        <img src="../gambar/meja.jpg" alt="meja kayu" class="image center" style="width: 50%;">
+    
+    <h3 style="text-align: center;">
+        <a href="#"><b><u>Meja kayu</u></b></a>
+    </h3>
+    <h6 style="text-align: center;">Meja kayu laci bolong</h6>
+    <h3 style="text-align: center;"><b>Rp. 500.000</b></h3>
+    
+    <button class="button buttonn center" style="position: relative;"><b>Beli</b></button>
+
+    <br>
+
+    <footer>
+        <h4>Tentang Kami</h4>
+        <br>
+        
+        <h5><a href="https://instagram.com/onyour__step" target="_blank"><img src="../gambar/instagram.png" alt="instagram" height="35" style="vertical-align: middle;"></a><a href="https://instagram.com/onyour__step" target="_blank">Click here!</a></h5>
+        
+        <h5><a href="https://twitter.com/Stefano21049113" target="_blank"><img src="../gambar/twitter.png" alt="twitter" height="35" style="vertical-align: middle;"></a><a href="https://twitter.com/Stefano21049113" target="_blank">Click here!</a></h5>
+
+    </footer>
+</body>
+</html>
